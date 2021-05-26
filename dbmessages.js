@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-// const mongoose = require('mongoose');
+
 
 const whatsappSchema=mongoose.Schema({
     message:String,
