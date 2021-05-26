@@ -1,16 +1,14 @@
-//done
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import Messages from './dbmessages.js';
 import Pusher from 'pusher';
-//done importing
 
-//done
+
 const app = express();
 const port = process.env.PORT|| 5000;
-//done 
+
 
 const pusher = new Pusher({
     appId: "1209149",
