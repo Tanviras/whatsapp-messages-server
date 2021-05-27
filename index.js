@@ -53,7 +53,8 @@ db.once('open',()=>{
           name: messageDetails.name,
           message: messageDetails.message,
           timestamp: messageDetails.timestamp,
-          recieved: messageDetails.recieved,
+        //   recieved: messageDetails.recieved,
+          email: messageDetails.email,
           });
         }else{
             console.log('Error triggering Pusher');
