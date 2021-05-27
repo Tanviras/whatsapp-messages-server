@@ -4,7 +4,8 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import Messages from './dbmessages.js';
 import Pusher from 'pusher';
-
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT|| 5000;
@@ -32,7 +33,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // });
 
 
-const uri = "mongodb+srv://wau:w1a2u3valoChele@cluster0.pjygh.mongodb.net/whatsapp?retryWrites=true&w=majority";
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.pjygh.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 mongoose.connect(uri,{ useNewUrlParser: true, useUnifiedTopology: true ,useCreateIndex: true})
 
 const db = mongoose.connection;
