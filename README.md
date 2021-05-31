@@ -5,9 +5,9 @@ Whatsapp-messages is a full-stack site which can be used for messaging via diffe
 </p>
 
 <h2>The source code is uploaded at two parts in two repositories.</h2>
-<b>Live Link:</b> https://aircnc-8c1bd.web.app <br><br>
-<b>Client:</b> https://github.com/Tanviras/airCNC-client  <br><br>
-<b>Server:</b> https://github.com/Tanviras/airCNC-server
+<b>Live Link:</b> https://whatsapp-e85d5.web.app/ <br><br>
+<b>Client:</b> https://github.com/Tanviras/whatsapp-messages-client  <br><br>
+<b>Server:</b> https://github.com/Tanviras/whatsapp-messages-server
 
 <h2>Main Features</h2>
 <ul>
